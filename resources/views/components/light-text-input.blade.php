@@ -1,0 +1,3 @@
+@props(['disabled' => false])
+
+<input @disabled($disabled) {{ $attributes->merge(['class' => 'data w-full p-2 border rounded focus:ring-2 focus:ring-[#db2626] focus:outline-none focus:border-transparent']) }}>
